@@ -10,11 +10,13 @@ class test_app(unittest.TestCase):
     def setUp(self):
         print("开始")
     def test_ma(self):
-        a = xiang_qi.ma(self)
-        self.assertEqual(a,"马走日")
+        a = xiang_qi()
+        res = a.ma()
+        self.assertEqual(res,"马走日")
     def test_xiang(self):
-        b = xiang_qi.xiang(self)
-        self.assertEqual(b,"象走")
+        b = xiang_qi()
+        re = b.xiang()
+        self.assertEqual(re,"象走")
     def tearDown(self):
         print("结束")
 
