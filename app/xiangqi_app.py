@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 class xiang_qi():
     def ma(self):
         return "马走日"
