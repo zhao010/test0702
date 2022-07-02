@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 import unittest
 
 from app.xiangqi_app import xiang_qi
