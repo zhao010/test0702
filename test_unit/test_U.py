@@ -1,7 +1,12 @@
+
+# -*- coding: UTF-8 -*-
 import unittest
+import os
+import sys
+root_path=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(root_path)
 
 from app.xiangqi_app import xiang_qi
-
 
 
 class test_app(unittest.TestCase):
