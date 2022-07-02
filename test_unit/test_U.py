@@ -2,11 +2,9 @@
 import unittest
 import os
 import sys
+from app.xiangqi_app import xiang_qi
 root_path=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(root_path)
-
-from app.xiangqi_app import xiang_qi
-
 
 class test_app(unittest.TestCase):
     def setUp(self):
